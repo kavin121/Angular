@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-drawer-container {
+    background-color:#6ab187;
+  }
+  .mat-drawer {
+    background-color: #1e434c;
+  }
+  .mat-elevation-z5{
+    position: relative;
+    z-index: 2;
+  }
+  .mat-sidenav a:hover{
+    color: #f4cc70;
+  }
